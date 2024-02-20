@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../back-end-eureka-master"
+		},
+		{
+			"path": "../../../../back-end-inventory-products"
+		},
+		{
+			"path": "../../../../back-end-inventory-orders"
+		},
+		{
+			"path": "../../../../back-end-inventory-products-elasticsearch"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
