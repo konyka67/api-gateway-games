@@ -17,5 +17,7 @@ RUN mvn clean package
 FROM openjdk:17
 EXPOSE 8762
 EXPOSE 8089
+EXPOSE 8088
+EXPOSE 8761
 COPY --from=build /target/gateway-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java", "-jar", "/app.jar"]
